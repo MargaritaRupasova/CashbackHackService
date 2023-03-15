@@ -12,7 +12,7 @@ public class CashbackHackServiceTest {
     public void shouldRemainsIfBuy500() {
         CashbackHackService service = new CashbackHackService();
 
-        int actual = service.remain(5900);
+        int actual = service.remain(500);
         int expected = 500;
 
         assertEquals(actual, expected);
